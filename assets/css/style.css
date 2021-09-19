@@ -1,0 +1,50 @@
+:root{
+    --dark: darkslategrey;
+    --light: lightseagreen;
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: var(--dark);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+    margin: 0 auto;
+    top: 0;
+    width: 100%;
+}
+
+.name{
+    background-color: var(--light);
+    color: var(--dark);
+    text-align: right;
+    padding: 20px;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 10px;
+}
+
+ul li{
+    display: inline;
+}
+
+a{
+    color: var(--light);
+
+}
+
+.avatar{
+    background-image: url(../images/Sakura\ Nakameguro.jpeg);
+    height: 500px;
+}
