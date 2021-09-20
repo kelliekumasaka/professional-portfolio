@@ -96,6 +96,8 @@ main section{
     display: flex;
     align-content: flex-end;
     justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
 }
 
 #about-me{
@@ -131,27 +133,31 @@ main section{
     grid-template-areas: 
         "header header header"
         "main section aside";
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: auto;
+    column-gap: 15px;
+    row-gap: 5px;
 }
 
 #sakura{
     grid-area: header;
-    max-width: 70%;
-    max-height: 50%;
+    max-width: 100%;
 }
 
 #guitar{
     grid-area: main;
-    max-width: 33%;
+    max-width: 100%;
+    align-self: stretch;
 }
 
 #pokemon{
     grid-area: section;
-    max-width: 33%;
+    max-width: 100%;
 }
 
 #coffee{
     grid-area: aside;
-    max-width: 33%;
+    max-width: 100%;
 }
 
 img{
