@@ -115,6 +115,10 @@ main section{
     margin-block-end: 0;
 }
 
+#work h1{
+    padding-left: 40px;
+}
+
 #blurb{
     display: flex;
     flex-wrap: wrap;
@@ -125,74 +129,62 @@ main section{
     font-size: 0.9em;
 } 
 
+.figure-sub h3, .figure-sub p{
+    margin: 0px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.25em;
+}
+
 .work-grid{
     display: flex;
     flex-wrap: wrap;
-    display: grid;
+    width: 70%;
     padding-left: 25px;
-    border-left: 5px solid var(--type);
+    border-left: 5px solid var(--type); 
     margin-left: 10px;
-    column-gap: 15px;
-    row-gap: 5px;
-    max-width: 70%;
-}
-
-img{
-    display: flex;
-    max-width: 200px;
-    min-height: 150px;
+    justify-content: space-between;
 }
 
 figure{
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
     display: flex;
-    margin:0;
+    flex-wrap: wrap;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    width: 47%;
+}
+
+.top-image{
+    width: 100%;
+}
+
+#sakura{
+    width: 100%;
+    height: 20vw;
+    border: 3px solid var(--light);
+}
+
+.lesser-image{
+    width: 100%;
+    height: 20vw;
+    border: 5px solid var(--light);
 }
 
 .figure-sub{
+    float: left;
+    padding: 5px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    font-size: 0.9em;
+    display: block;
     background-color: var(--light);
     color: var(--dark);
 }
 
-/* .work-grid{
-    display: grid;
-    padding-left: 25px;
-    border-left: 5px solid var(--type);
-    margin-left: 10px;
-    grid-template-areas: 
-        "header header header"
-        "main section aside";
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: auto;
-    column-gap: 15px;
-    row-gap: 5px;
-    max-width: 70%;
-}
-
-#sakura{
-    grid-area: header;
-    max-width: 100%;
-}
-
-#guitar{
-    grid-area: main;
-    max-width: 100%;
-    align-self: stretch;
-}
-
-#pokemon{
-    grid-area: section;
-    max-width: 100%;
-}
-
-#coffee{
-    grid-area: aside;
-    max-width: 100%;
-} */
-
-img{
-    border: 5px solid var(--light);
-}
-
+/* Contact Me section */
 #contact-me div ul li a{
     color: var(--type);
 }
@@ -212,7 +204,7 @@ img{
     flex-wrap: wrap;
 }
 
-
+/* Footer */
 footer{
     text-align: center;
     font-size: 0.9em;
