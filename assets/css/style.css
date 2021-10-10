@@ -128,11 +128,6 @@ main section {
   font-size: 0.9em;
 }
 
-/* Work section */
-#work h1 {
-  padding-left: 40px;
-}
-
 .figure-sub h3,
 .figure-sub p {
   margin: 0px;
