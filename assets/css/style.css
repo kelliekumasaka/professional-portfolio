@@ -136,6 +136,7 @@ main section {
   text-align: left;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 #work-grid {
@@ -148,8 +149,8 @@ main section {
   justify-content: space-between;
 }
 
-#animal-crossing{
-  background-image: url(../images/animal-crossing.png);
+#big-one{
+  background-image: url(../images/bullet.png);
   background-size: cover;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
@@ -165,7 +166,7 @@ main section {
 }
 
 #pw-generator{
-  background-image: url(../images/random-password-generator.png);
+  background-image: url(../images/animal-crossing.png);
 }
 
 #work-day{
